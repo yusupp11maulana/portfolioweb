@@ -52,7 +52,7 @@
             <div class="col col-10">
                 <div class="row">
                     <div class="col-lg bg-dark">
-                        <h1>Test</h1>
+                        <h1>Content</h1>
                     </div>
                     <div class="col-lg bg-dark">
                         <h1>Test</h1>
