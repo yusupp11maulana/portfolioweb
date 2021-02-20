@@ -1,0 +1,201 @@
+/* NAVBAR */
+#nama {
+    font-family: Viga;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #1D3557;
+}
+
+#btn1 {
+    background: #1D3557;
+    border-radius: 10px;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    line-height: 28px;
+    color: #A8DADC;
+    text-align: center;
+}
+
+.jumbo {
+    height: 50%;
+    background-color: #1D3557;
+}
+
+.nav-link {
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+#activated {
+    color: #1D3557;
+    font-weight: bold;
+}
+
+/* END NAVBAR */
+
+/* Jumbotron */
+.jumbo .display-4 {
+    margin-top: 33px;
+    font-family: Didact Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 66px;
+    color: #A8DADC;
+
+}
+
+.jumbo .display-2 {
+    font-family: Didact Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.jumbo .display-3 {
+    margin-top: 10%;
+    height: 50%;
+    margin-left: 20%;
+}
+
+.btn-outline-primary1 {
+    border: 1px solid #A8DADC;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #A8DADC;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: color .15s ease-in-out,
+        background-color .15s ease-in-out,
+        border-color .15s ease-in-out,
+        box-shadow .15s ease-in-out
+}
+
+.btn-outline-primary1:hover {
+    color: #1D3557;
+    background-color: #A8DADC;
+    border-color: #A8DADC;
+    cursor: pointer;
+}
+
+/* Jumbotron */
+
+
+/* DESKTOP VERSION */
+@media (min-width:992px) {
+
+    /* NAVBAR */
+
+    #nama {
+        font-family: Viga;
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        color: #F1FAEE;
+    }
+
+    .jumbo {
+        height: 540px;
+        margin-top: -75px;
+        background-color: #1D3557;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+        font-family: Source Sans Pro;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    #btn1 {
+        background: #A8DADC;
+        border-radius: 10px;
+        font-family: Source Sans Pro;
+        font-size: 18px;
+        line-height: 28px;
+        color: #1D3557;
+    }
+
+    #warna {
+        color: rgba(168, 218, 220, 0.5);
+    }
+
+    #activated {
+        color: #A8DADC;
+    }
+
+    /* ENDNAVBAR */
+
+    /* JUMBOTRON */
+    .jumbo .display-4 {
+        margin-top: 183px;
+        font-family: Didact Gothic;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 66px;
+        color: #A8DADC;
+
+    }
+
+    .jumbo .display-2 {
+        font-family: Didact Gothic;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 39px;
+        color: #FFFFFF;
+    }
+
+    .jumbo .display-3 {
+        margin-top: 144px;
+    }
+
+    .btn-outline-primary1 {
+        border: 1px solid #A8DADC;
+        box-sizing: border-box;
+        border-radius: 10px;
+        color: #A8DADC;
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        transition: color .15s ease-in-out,
+            background-color .15s ease-in-out,
+            border-color .15s ease-in-out,
+            box-shadow .15s ease-in-out
+    }
+
+    .btn-outline-primary1:hover {
+        color: #1D3557;
+        background-color: #A8DADC;
+        border-color: #A8DADC;
+        cursor: pointer;
+    }
+
+    /* End Jumbotron */
+
+}
